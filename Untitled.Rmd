@@ -1,0 +1,20 @@
+---
+title: "plan"
+output: html_document
+date: "2023-03-18"
+---
+##Introduction to Git-Hub
+1.Forking an existing Repo
+2.Creating a Branch in an existing Repo
+3.Creating a new file - including a model in Lavaan
+4.Create a pull request from the branch to the main branch
+5.Collaboratively combine the different models in one model all together
+6.Use Issues to communicate problems that might occure 
+```{r setup, include=FALSE}
+library(lavaan)
+#Model 1
+#Model 2
+#Model 3
+#Combined Model
+```
+
