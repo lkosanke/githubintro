@@ -15,6 +15,8 @@ date: "2023-03-18"
   -> 
 5.Collaboratively combine the different models in one model all together
 6.Use Issues to communicate problems that might occure 
+
+Look for Help at this Tutorial: https://docs.github.com/en/get-started/quickstart/hello-world
 ```{r setup, include=FALSE}
 library(lavaan)
 #Model 1
