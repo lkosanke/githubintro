@@ -30,52 +30,8 @@ date: "2023-03-18"
 
 You should by then be owner of your repository, should be collaborating on the merged repository, and ideally should have reviewed repositories, when issues came up(owner, collaborator, reviewer).
 
-```{r setup, include=FALSE}
-library(lavaan)
-#Model 1
-A ~ C
-B ~ A + C
-
-#Model 2
-C ~ A
-D ~ C
-
-#Model 3
-C ~ B
-D ~ B + C
-
-#Combined Model
-A ~ C
-B ~ A + C
-C ~ A + B
-D ~ B + C
-```
 7.Transfering the Models from lavaan into Stenograph
 --> Find the Stenographs package here: https://github.com/aaronpeikert/StenoGraphs.jl
   -> open VS-Code -> create a new script and select Julia as language -> install the package
-
-```{julia} 
-import Pkg; Pkg.add("StenoGraphs")
-using StenoGraphs #to select the package in julia
-
-#Model 1
-C → A
-[A C] → B
-
-#Model 2
-A → C
-C → D
-
-#Model 3
-B → C
-[B C] → D
-
-#Combined Model
-A → B
-C ⇒ A
-C ⇒ B
-[B C] → D
-
-```  
   
   
