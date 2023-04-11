@@ -1,12 +1,39 @@
 ---
-title: "plan"
-output: html_document
+title: "Introduction to Git-Hub"
+format: gfm
 date: "2023-03-18"
 ---
-##Introduction to Git-Hub
---> get started/ setting up Git-hub, for details take a look here: https://malikaihle.github.io/Introduction-RStudio-Git-GitHub/
---> Also look for Help at this Tutorial: https://docs.github.com/en/get-started/quickstart/hello-world
-1.Forking an existing Repo
+
+# Get Started
+
+→ get started/ setting up GitHub, for details take a look here: https://malikaihle.github.io/Introduction-RStudio-Git-GitHub/
+→ Also look for Help at this Tutorial: https://docs.github.com/en/get-started/quickstart/hello-world
+
+There are very very many ways to use Git/GitHub.
+Tooling is at once, very important and irrelevant.
+It is important that you understand the concepts so that you are able to get things done in every environment.
+However, being quick about things is also important, so make sure you are comfortable with the tooling that you use.
+
+Options used in the team are:
+
+* RStudio
+* Visual Studio Code
+* GitHub Desktop
+* plain git cli
+* github gh cli
+
+## Forking an existing Repo
+
+### Learning goals
+
+ * What is a fork?
+ * Is a fork something on GitHub or on your local machine?
+ * How is forking different from a clone?
+ * What is a remote?
+ * Can you have more than one remote?
+ * Why do you need a fork?
+ * How to create a fork?
+
   -> "Code" -> "Open in Github Desktop" -> You now should have your own lokal version of the repository
   -> you can now upload your cloned repo in your online Git-hub
 2.Creating a Branch in an existing Repo
@@ -17,6 +44,9 @@ date: "2023-03-18"
 --> For detailed instructions for steps 1-4 take a look here: https://malikaihle.github.io/Collaborative-RStudio-GitHub/
 
 5.Collaboratively combine the different models in one model all together
+
+![Combined model](model1.png)
+
 6.Use Issues to communicate problems that might occure 
      * tag the others in the issues to keep them updated and to make them aware of the issue
      * assign someone to a project
