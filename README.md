@@ -74,7 +74,6 @@ It is advisable to regularly synchronise your fork with the upstream repository.
 ## What is the fork for?
  * You can now make any changes to the fork, including:
      * Creating Branches: Branches allow you to create new features or try out ideas without compromising your main project.
-      * Create Branches: Branches allow you to create new features or try out ideas without jeopardising your main project. 
      * Opening pull requests: If you want to contribute to the upstream repository, you can send the original author a request to populate your fork into            their repository by submitting a pull request.
 
 ## How to do things No.3
