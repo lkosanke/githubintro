@@ -84,7 +84,7 @@ It is advisable to regularly synchronise your fork with the upstream repository.
  * Create a pull request from the branch to the main branch
  * --> For detailed instructions for steps 1-4 take a look here: https://malikaihle.github.io/Collaborative-RStudio-GitHub/
 
-## Collaboratively combine the different models in one model all together
+## Collaboratively combine the different models in one model all together No.1
 ### Model 1
 ![Combined model](model1.png)
 ### Model 2
@@ -92,20 +92,21 @@ It is advisable to regularly synchronise your fork with the upstream repository.
 ### Model 3
 ![Combined model](model3.png)
 
-6.Use Issues to communicate problems that might occure 
+## Use Issues to communicate problems that might occure 
  * tag the others in the issues to keep them updated and to make them aware of the issue
  * assign someone to a project
  * discuss the issues, using the commentary function beneath the issues
-7.open PR based on those issues
+
+## What You should have a mental model of in the end
  * PR reviewen
  * PR revisen
  * PR mergen
  * PR merge conflicts beheben
  * PR in project management software
+ * You should by then be owner of your repository, should be collaborating on the merged repository, and ideally should have reviewed repositories, when        issues came up(owner, collaborator, reviewer).
 
-You should by then be owner of your repository, should be collaborating on the merged repository, and ideally should have reviewed repositories, when issues came up(owner, collaborator, reviewer).
-
-7.Transfering the Models from lavaan into Stenograph
+## Collaboratively combine the different models in one model all together No.2
+### Transfering the Models from lavaan into Stenograph!
  * --> Find the Stenographs package here: https://github.com/aaronpeikert/StenoGraphs.jl
  * -> open VS-Code -> create a new script and select Julia as language -> install the package
   
