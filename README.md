@@ -36,6 +36,9 @@ You can clone your own repository or someone else's repository.
 ## How to do things No.1
  * Navigate to the main page of the repository and click above the list of files on "Code"
  * Copy the URL for the repository / Open in Github Desktop
+  *To clone a repository via HTTPS, click under "HTTPS"
+  *If you want to clone the repository using an SSH key, including a certificate issued by your organisation's SSH certification authority, click SSH and   then follow on.
+  *To clone a repository using the GitHub CLI, click GitHub CLI and then follow.
  * Open the application you are using git locally with. (Change the current working directory to the location where you want the cloned directory)
  * select that you want to create a cloe, or a repository, then paste the URL you copied earlier!
  * You now should have your own lokal version of the repository
@@ -56,6 +59,7 @@ It is advisable to regularly synchronise your fork with the upstream repository.
  * Optional: add a description to your fork
  * Select whether only the main or all branches are to be copied into the new fork.
  * Click on "Create Fork"
+ * Hint: You now have a fork, but no local copy of the remote repo.. 
 
 ### Learning goals
 
@@ -74,12 +78,12 @@ It is advisable to regularly synchronise your fork with the upstream repository.
 4.Create a pull request from the branch to the main branch
  * --> For detailed instructions for steps 1-4 take a look here: https://malikaihle.github.io/Collaborative-RStudio-GitHub/
 
-5. Collaboratively combine the different models in one model all together
-## Model 1
+## Collaboratively combine the different models in one model all together
+### Model 1
 ![Combined model](model1.png)
-## Model 2
+### Model 2
 ![Combined model](model2.png)
-## Model 3
+### Model 3
 ![Combined model](model3.png)
 
 6.Use Issues to communicate problems that might occure 
