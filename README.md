@@ -75,9 +75,11 @@ It is advisable to regularly synchronise your fork with the upstream repository.
  * --> For detailed instructions for steps 1-4 take a look here: https://malikaihle.github.io/Collaborative-RStudio-GitHub/
 
 5. Collaboratively combine the different models in one model all together
-
+## Model 1
 ![Combined model](model1.png)
+## Model 2
 ![Combined model](model2.png)
+## Model 3
 ![Combined model](model3.png)
 
 6.Use Issues to communicate problems that might occure 
