@@ -36,9 +36,9 @@ You can clone your own repository or someone else's repository.
 ## How to do things No.1
  * Navigate to the main page of the repository and click above the list of files on "Code"
  * Copy the URL for the repository / Open in Github Desktop
-  *To clone a repository via HTTPS, click under "HTTPS"
-  *If you want to clone the repository using an SSH key, including a certificate issued by your organisation's SSH certification authority, click SSH and   then follow on.
-  *To clone a repository using the GitHub CLI, click GitHub CLI and then follow.
+     * To clone a repository via HTTPS, click under "HTTPS"
+     * If you want to clone the repository using an SSH key, including a certificate issued by your organisation's SSH certification authority, click SSH and   then follow on.
+     * To clone a repository using the GitHub CLI, click GitHub CLI and then follow.
  * Open the application you are using git locally with. (Change the current working directory to the location where you want the cloned directory)
  * select that you want to create a cloe, or a repository, then paste the URL you copied earlier!
  * You now should have your own lokal version of the repository
