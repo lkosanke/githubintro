@@ -59,7 +59,7 @@ It is advisable to regularly synchronise your fork with the upstream repository.
  * Optional: add a description to your fork
  * Select whether only the main or all branches are to be copied into the new fork.
  * Click on "Create Fork"
- * Hint: You now have a fork, but no local copy of the remote repo.. 
+ * Hint: You now have a fork, but no local copy of the remote repo.. this you can get by cloning 
 
 ### Learning goals
 
@@ -71,11 +71,17 @@ It is advisable to regularly synchronise your fork with the upstream repository.
  * Why do you need a fork?
  * How to create a fork?
 
-2.Creating a Branch in an existing Repo
+## What is the fork for?
+ * You can now make any changes to the fork, including:
+     * Creating Branches: Branches allow you to create new features or try out ideas without compromising your main project.
+     * Opening pull requests: If you want to contribute to the upstream repository, you can send the original author a request to populate your fork into            their repository by submitting a pull request.
+
+## How to do things No.3
+ * Creating a Branch in an existing Repo 
  * "Main" -> either choose an existing branch other than the main branch, or create a new branch (preferably with a name saying what its for)
-3.Creating a new file - including a model in Lavaan
+ * Creating a new file - including a model in Lavaan
  * "Add file" or upload code from R-Studio/ Vs Code
-4.Create a pull request from the branch to the main branch
+ * Create a pull request from the branch to the main branch
  * --> For detailed instructions for steps 1-4 take a look here: https://malikaihle.github.io/Collaborative-RStudio-GitHub/
 
 ## Collaboratively combine the different models in one model all together
