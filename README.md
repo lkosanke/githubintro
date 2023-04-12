@@ -76,7 +76,9 @@ It is advisable to regularly synchronise your fork with the upstream repository.
 
 5. Collaboratively combine the different models in one model all together
 
-![Combined model](model1.png)(model2.png)(model3.png)
+![Combined model](model1.png)
+![Combined model](model2.png)
+![Combined model](model3.png)
 
 6.Use Issues to communicate problems that might occure 
  * tag the others in the issues to keep them updated and to make them aware of the issue
