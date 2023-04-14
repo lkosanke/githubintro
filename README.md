@@ -58,6 +58,8 @@ When you imagine a local repository on your computer with a source on GitHub, ow
 This shows a successful “fork-and-clone”. The upstream you can NOT push to (and pull from). But you have a fork of the source repo (a very special copy, on GitHub) and it is configured as origin. origin is your primary repo. You can push to and pull from origin. You can make a pull request back to the source repo via your fork.
 attained from: https://happygitwithr.com/common-remote-setups.html
 
+But how is this done/ achieved?
+
 ## Cloning of Repos
 You can clone a GitHub repository to create a local copy on your computer. In your local repository, you can commit and create a pull request to update the changes in the upstream repository. This might serve the purpose of making it easier to resolve merge conflicts, add or remove files, and push large commits. 
 
