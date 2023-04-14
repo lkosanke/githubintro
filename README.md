@@ -139,6 +139,8 @@ By default, GitHub names the default branch 'main' in any new repository.
  * Create a pull request from the branch to the main branch
  * --> For detailed instructions for steps 1-4 take a look here: https://malikaihle.github.io/Collaborative-RStudio-GitHub/
 
+## Ownership of Repos in GitHub
+
 ## Collaboratively combine the different models in one model all together No.1
 ### Model 1
 ![Combined model](model1.png)
