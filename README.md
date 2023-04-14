@@ -26,6 +26,10 @@ Options used in the team are:
 * plain git cli
 * github gh cli
 
+Work in GitHub is organized in Repositories - short: Repos. Those come in different shapes and sizes if you so will and can be created at different places. 
+
+![Combined model](https://happygitwithr.com/img/no-github.jpeg)
+
 ## Cloning of Repos
 You can clone a GitHub repository to create a local copy on your computer. In your local repository, you can commit and create a pull request to update the changes in the upstream repository. This might serve the purpose of making it easier to resolve merge conflicts, add or remove files, and push large commits. 
 
