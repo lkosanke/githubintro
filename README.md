@@ -58,6 +58,27 @@ When you imagine a local repository on your computer with a source on GitHub, ow
 This shows a successful “fork-and-clone”. The upstream you can NOT push to (and pull from). But you have a fork of the source repo (a very special copy, on GitHub) and it is configured as origin. origin is your primary repo. You can push to and pull from origin. You can make a pull request back to the source repo via your fork.
 attained from: https://happygitwithr.com/common-remote-setups.html
 
+Here is a list of constellations a repo can have:
+
+ * a single local repo
+    * has no remote / is not uploaded to github
+ * a single remote repo
+    * lives on GitHub but no local copy
+ * a project with no collaborators
+    * you work on a local copy
+    * you have GitHub as a remote
+    * you have write-access to the remote
+ * an improper fork
+    * you cloned a repo for which you have no write access
+    * file there is a remote, you can not upload anything
+ * a proper fork
+    * you have a local copy with two remotes
+    * one remote is the copy on GitHub in your username called origin where you have write access
+    * another remote is the original repository on GitHub called upstream where you have no write access
+ * a project with collaborators
+    * a local copy with a remote that is shared with others
+    * while you have write access and could overwrite anything, you are considered and do PRs
+
 But how is this done/ achieved?
 
 ## Cloning of Repos
