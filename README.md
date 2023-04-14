@@ -147,6 +147,15 @@ It is advisable to regularly synchronise your fork with the upstream repository.
 ### Model 3
 ![Combined model](model3.png)
 
+## Creating your own repo with a respective model
+ * create an empty folder, `git init` `git add README.md` `git commit` rinse and repeat → a single local repo
+ * take a look at a repo on github → a single remote repo
+ * clone that repo → an improper fork
+ * fork that repo → a single remote repo
+ * clone that fork → a proper fork
+ * suggest changes via PR
+ * add a collaborator to that fork, change / add remote on the side of the collaborator
+
 ## Use Issues to communicate problems that might occure 
  * tag the others in the issues to keep them updated and to make them aware of the issue
  * assign someone to a project
