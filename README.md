@@ -116,26 +116,26 @@ It is advisable to regularly synchronise your fork with the upstream repository.
  * Click on "Create Fork"
  * Hint: You now have a fork, but no local copy of the remote repo.. this you can get by cloning 
 
-### Learning goals
-
- * What is a fork?
- * Is a fork something on GitHub or on your local machine?
- * How is forking different from a clone?
- * What is a remote?
- * Can you have more than one remote?
- * Why do you need a fork?
- * How to create a fork?
-
 ## What is the fork for?
  * You can now make any changes to the fork, including:
      * Creating Branches: Branches allow you to create new features or try out ideas without compromising your main project.
      * Opening pull requests: If you want to contribute to the upstream repository, you can send the original author a request to populate your fork into            their repository by submitting a pull request.
 
+## Branching
+Each repository has one default branch, and can have multiple other branches. You can merge a branch into another branch using a pull request.
+Branches allow you to develop features, fix bugs, or safely experiment with new ideas in a contained area of your repository.
+
+You always create a branch from an existing branch. Typically, you might create a new branch from the default branch of your repository. You can then work on this new branch in isolation from changes that other people are making to the repository. A branch you create to build a feature is commonly referred to as a feature branch or topic branch. For more information, see: https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-branches
+
+When you create a repository on GitHub, GitHub creates the repository with one single branch. The default branch is the branch that GitHub displays when anyone visits your repository. The default branch is also the initial branch that Git checks out locally when someone clones the repository. Unless you specify a different branch, the default branch in a repository is the base branch for new pull requests and code commits.
+
+By default, GitHub names the default branch 'main' in any new repository.
+
 ## How to do things No.3
  * Creating a Branch in an existing Repo 
  * "Main" -> either choose an existing branch other than the main branch, or create a new branch (preferably with a name saying what its for)
- * Creating a new file - including a model in Lavaan
- * "Add file" or upload code from R-Studio/ Vs Code
+ * Creating a new file 
+ * "Add file" or upload code from R-Studio/ Vs Code - including a model in Lavaan, from one of the models below
  * Create a pull request from the branch to the main branch
  * --> For detailed instructions for steps 1-4 take a look here: https://malikaihle.github.io/Collaborative-RStudio-GitHub/
 
@@ -147,7 +147,8 @@ It is advisable to regularly synchronise your fork with the upstream repository.
 ### Model 3
 ![Combined model](model3.png)
 
-## Creating your own repo with a respective model
+## How to do things No.3a
+## Creating your own repo with a respective model - Workflow
  * create an empty folder, `git init` `git add README.md` `git commit` rinse and repeat → a single local repo
  * take a look at a repo on github → a single remote repo
  * clone that repo → an improper fork
@@ -169,8 +170,26 @@ It is advisable to regularly synchronise your fork with the upstream repository.
  * PR in project management software
  * You should by then be owner of your repository, should be collaborating on the merged repository, and ideally should have reviewed repositories, when        issues came up(owner, collaborator, reviewer).
 
+## Collaboration
+### Learning goals
+Please create a Repo where you all have writing access to - and use this to write the answers to the following questions down to!
+ * What is a fork?
+ * What is a clone?
+ * Is a fork something on GitHub or on your local machine?
+ * What is a origin?
+ * What is meant with upstream?
+ * What is a branch?
+ * How is forking different from a clone?
+ * What is a remote?
+ * Can you have more than one remote?
+ * Why do you need a fork?
+
 ## Collaboratively combine the different models in one model all together No.2
+Please use the same Repo to make a file in which you combine the previous lavaan models into one model that inherits all of the others!
+
 ### Transfering the Models from lavaan into Stenograph!
+Try to transmit the model you created in another much more compact/ efficient language!
+
  * --> Find the Stenographs package here: https://github.com/aaronpeikert/StenoGraphs.jl
  * -> open VS-Code -> create a new script and select Julia as language -> install the package
   
