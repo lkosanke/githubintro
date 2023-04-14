@@ -52,6 +52,12 @@ When you imagine a local repository on your computer with a source on GitHub, ow
 Here an origin is configured and you can NOT push to (and pull from) origin. This is indicated by the orange color of origin and the greyed out, dashed “push” arrow. This origin is read-only for you, there is no way to get changes back into the source repo, since you cannot push to it and you haven’t created a fork, which is necessary for a pull request.
 attained from: https://happygitwithr.com/common-remote-setups.html
 
+## Local and remote - an origin and a fork
+When you imagine a local repository on your computer with a source on GitHub, owned by someone else, and a fork owned by you - the mental model could look something like this:  
+![Combined model](https://happygitwithr.com/img/fork-them.jpeg)  
+This shows a successful “fork-and-clone”. The upstream you can NOT push to (and pull from). But you have a fork of the source repo (a very special copy, on GitHub) and it is configured as origin. origin is your primary repo. You can push to and pull from origin. You can make a pull request back to the source repo via your fork.
+attained from: https://happygitwithr.com/common-remote-setups.html
+
 ## Cloning of Repos
 You can clone a GitHub repository to create a local copy on your computer. In your local repository, you can commit and create a pull request to update the changes in the upstream repository. This might serve the purpose of making it easier to resolve merge conflicts, add or remove files, and push large commits. 
 
