@@ -28,7 +28,29 @@ Options used in the team are:
 
 Work in GitHub is organized in Repositories - short: Repos. Those come in different shapes and sizes if you so will and can be created at different places. 
 
+## Local Repo only
+When you imagine a local repository on your computer that is not yet connected to GitHub - the mental model could look something like this:
 ![Combined model](https://happygitwithr.com/img/no-github.jpeg)
+Here your Git repo, looks like a stack of coins. It is blue, which indicates you have write permission.
+attained from: https://happygitwithr.com/common-remote-setups.html
+
+## Local and remote
+When you imagine a local repository on your computer with a copy/source on GitHub, owned by you - the mental model could look something like this:
+![Combined model](https://happygitwithr.com/img/ours-you.jpeg)
+Here you see a remote named: "origin", which you have permission to push to (and to pull from). That’s why origin is colored blue and there are solid arrows going both directions. The origin remote on GitHub is called a "source repo", meaning it is not a fork (i.e. copy) of anything else on GitHub.
+attained from: https://happygitwithr.com/common-remote-setups.html
+
+## Local and remote (but not yours)
+When you imagine a local repository on your computer with a source on GitHub, owned by someone else - the mental model could look something like this:
+![Combined model](https://happygitwithr.com/img/ours-them.jpeg)
+Here an origin is configured and you can push to (and pull from) origin. The origin remote is, however, not owned by you. Instead it’s owned by another GitHub user or organisation. origin is also your primary repo in this setup.
+attained from: https://happygitwithr.com/common-remote-setups.html
+
+## Local and remote (but definitely not yours)
+When you imagine a local repository on your computer with a source on GitHub, owned by someone else - the mental model could look something like this:
+![Combined model](https://happygitwithr.com/img/theirs.jpeg)
+Here an origin is configured and you can NOT push to (and pull from) origin. This is indicated by the orange color of origin and the greyed out, dashed “push” arrow. This origin is read-only for you, there is no way to get changes back into the source repo, since you cannot push to it and you haven’t created a fork, which is necessary for a pull request.
+attained from: https://happygitwithr.com/common-remote-setups.html
 
 ## Cloning of Repos
 You can clone a GitHub repository to create a local copy on your computer. In your local repository, you can commit and create a pull request to update the changes in the upstream repository. This might serve the purpose of making it easier to resolve merge conflicts, add or remove files, and push large commits. 
