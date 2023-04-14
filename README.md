@@ -177,4 +177,7 @@ It is advisable to regularly synchronise your fork with the upstream repository.
 ## The Good, The Bad & The Ugly - Good Practice in Git
 With Git/ Github there are many possible ways to do stuff and to reach your goals. Nevertheless somethings regarding good practice dont change and they will be of service to you in the future. You will notice, that some of those practices are more convenient depending on the tool you use, but they overall apply regardeless.
  * Never commit changes directly onto the 'main' branch
+ * Give Comments, pushes and honestly everything a name/ comment on what the sction was about (makes collabs easier big way)
+ * working locally and commiting to a remote version later on (when you are done) is the safest way to work
+ 
 
