@@ -1,12 +1,4 @@
-Plan
-================
-2023-03-18
-
----
-title: "Introduction to Git-Hub"
-format: gfm
-date: "2023-03-18"
----
+# Introduction to Git-Hub
 
 # Get Started
 
