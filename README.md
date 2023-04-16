@@ -49,7 +49,7 @@ Visualization from [Happy Git with R](https://happygitwithr.com/common-remote-se
 ## Local and remote - an origin and a fork
 When you imagine a local repository on your computer with a source on GitHub, owned by someone else, and a fork owned by you - the mental model could look something like this:  
 ![Combined model](https://happygitwithr.com/img/fork-them.jpeg)  
-This shows a successful “fork-and-clone”. The upstream you can NOT push to (and pull from). But you have a fork of the source repo (a very special copy, on GitHub) and it is configured as origin. origin is your primary repo. You can push to and pull from origin. You can make a pull request back to the source repo via your fork.
+This shows a successful “fork-plus-clone”. The upstream you can NOT push to (and pull from). But you have a fork of the source repo (a very special copy, on GitHub) and it is configured as origin. The origin is your primary repo. You can push to and pull from origin. You can make a pull request back to the source repo via your fork.
 Visualization from [Happy Git with R](https://happygitwithr.com/common-remote-setups.html) licensed under [CC-BY-SA](http://creativecommons.org/licenses/by-nc/4.0/).
 
 Here is a list of constellations a repo can have:
