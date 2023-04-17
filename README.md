@@ -82,7 +82,7 @@ Cloning a repository retrieves a complete copy of all repository data that GitHu
 
 You can clone your own repository or someone else's repository.
 
-## How to do things No.1
+## One way on how to clone a Repo
  * Navigate to the main page of the repository and click above the list of files on "Code"
  * Copy the URL for the repository / Open in Github Desktop
      * To clone a repository via HTTPS, click under "HTTPS"
@@ -98,7 +98,7 @@ Instead of creating issues, you can use forks to suggest changes related to fixi
 
 It is advisable to regularly synchronise your fork with the upstream repository. For this purpose, you need to use Git on the command line.
  
-## How to do things No.2
+## One way on how to fork a Repo
  * For this purpose, you need to use Git in the command line.
  * Navigate to the repository on GitHub.com
  * Click on Fork in the upper right corner of the page.
@@ -124,7 +124,7 @@ When you create a repository on GitHub, GitHub creates the repository with one s
 
 By default, GitHub names the default branch 'main' in any new repository.
 
-## How to do things No.3
+## One way on how to branch a Repo / create a new branch in a Repo
  * Creating a Branch in an existing Repo 
  * "Main" -> either choose an existing branch other than the main branch, or create a new branch (preferably with a name saying what its for)
  * Creating a new file 
@@ -142,7 +142,7 @@ By default, GitHub names the default branch 'main' in any new repository.
 ### Model 3
 ![Combined model](model3.png)
 
-## How to do things No.3a
+## One possible workflow, integrating the above
 ## Creating your own repo with a respective model - Workflow
  * create an empty folder, `git init` `git add README.md` `git commit` rinse and repeat → a single local repo
  * take a look at a repo on github → a single remote repo
