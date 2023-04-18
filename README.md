@@ -165,7 +165,7 @@ By default, GitHub names the default branch 'main' in any new repository.
 
 ## Collaboration
 ### Learning goals
-Please create a Repo where you all have writing access to - and use this to write the answers to the following questions down to!
+Please create a shared Repo where you all have writing access to - and use this to write the answers to the following questions down to!
  * What is a fork?
  * What is a clone?
  * Is a fork something on GitHub or on your local machine?
