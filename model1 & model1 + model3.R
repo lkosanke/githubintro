@@ -6,6 +6,11 @@ A ~ C
 B ~ A + C
 '
 
+#model 2 seperately
+model2 <-'
+C ~ A
+D ~ C
+
 #model 3 seperately
 model3 <-'
 B ~ C
