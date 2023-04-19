@@ -21,3 +21,7 @@ B ~ C
 D ~ C + B
 
 
+model4 <-'
+B ~ C
+D ~ C + B
+'
