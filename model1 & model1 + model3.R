@@ -26,7 +26,7 @@ B ~ C
 D ~ C + B
 
 
-model4 <-'
+model5 <-'
 B ~ C
 D ~ C + B
 '
